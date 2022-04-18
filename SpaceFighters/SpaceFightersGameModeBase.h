@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "StarFighterGameModeBase.generated.h"
+#include "SpaceFightersGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class STARFIGHTER_API AStarFighterGameModeBase : public AGameModeBase
+class SPACEFIGHTERS_API ASpaceFightersGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

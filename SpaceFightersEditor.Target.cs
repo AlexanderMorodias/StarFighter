@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class StarFighterEditorTarget : TargetRules
+public class SpaceFightersEditorTarget : TargetRules
 {
-	public StarFighterEditorTarget( TargetInfo Target) : base(Target)
+	public SpaceFightersEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "StarFighter" } );
+		ExtraModuleNames.AddRange( new string[] { "SpaceFighters" } );
 	}
 }
